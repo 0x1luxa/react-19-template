@@ -8,7 +8,7 @@ function App() {
         <ReactLogo />
         <input
           type="email"
-          className="peer flex size-13 flex-1 justify-around bg-black"
+          className="peer flex size-13 flex-1 justify-around"
         />
         <p className="invisible peer-invalid:visible ...">
           Please provide a valid email address.
