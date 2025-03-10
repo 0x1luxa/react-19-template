@@ -1,10 +1,12 @@
 import ReactLogo from '@/assets/react.svg'
+import { useTranslation } from 'react-i18next'
 
 function App() {
+  const { t } = useTranslation()
   return (
     <form>
       <label className="block">
-        <span className="...">Email</span>
+        <span className="...">{t('hello')}</span>
         <ReactLogo />
         <input
           type="email"
